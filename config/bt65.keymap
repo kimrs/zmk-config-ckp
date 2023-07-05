@@ -30,21 +30,21 @@
 		};
 		raise {
 			bindings = <
-				&kp ESC &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp  F8   &kp  F9   &kp F10  &kp F11 &kp F12 &bl BL_TOG &rgb_ug RGB_TOG
-				&trans &kp F7 &kp F8 &kp F9 &kp F10 &trans &trans &trans &trans &trans &trans &trans &trans &sys_reset &rgb_ug RGB_HUI
-				&trans &kp F4 &kp F5 &kp F6 &kp F11 &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans &bootloader &rgb_ug RGB_HUD
-				&trans &kp F1 &kp F2 &kp F3 &kp F12 &trans &trans &trans &trans &kp END &kp PG_DN  &kp C_NEXT &trans &bl BL_INC
-				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans   &trans &bt BT_CLR &trans &bl BL_DEC
+				&kp ESC &kp F10 &kp F11 &kp F12 &kp F4 &kp F5 &kp F6 &kp F7 &kp  F8   &kp  F9   &kp F10  &kp F11 &kp F12 &bl BL_TOG &rgb_ug RGB_TOG
+				&trans &kp F7 &kp F8 &kp F9 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &sys_reset
+				&trans &kp F4 &kp F5 &kp F6 &trans &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans &trans &bootloader
+				&trans &kp F1 &kp F2 &kp F3 &trans &trans &trans &trans &trans &kp END &kp PG_DN  &kp C_NEXT &trans &bt BT_NXT
+				&trans &trans  &trans              &trans                            &trans   &trans   &trans &trans &trans &bt BT_CLR
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		func {
 			bindings = <
 				&kp ESC &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp  F8   &kp  F9   &kp F10  &kp F11 &kp F12 &bl BL_TOG &rgb_ug RGB_TOG
-				&trans &kp N7 &kp N8 &kp N9 &trans &trans &trans &trans &trans &trans &trans &trans &trans &sys_reset &rgb_ug RGB_HUI
-				&trans &kp N4 &kp N5 &kp N6 &trans &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans &bootloader &rgb_ug RGB_HUD
-				&trans &kp N1 &kp N2 &kp N3 &trans &trans &trans &trans &trans &kp END &kp PG_DN  &kp C_NEXT &trans &bl BL_INC
-				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans   &trans &bt BT_CLR &trans &bl BL_DEC
+				&trans &kp N7 &kp N8 &kp N9 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &sys_reset
+				&trans &kp N4 &kp N5 &kp N6 &trans &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans &trans &bootloader
+				&trans &kp N1 &kp N2 &kp N3 &trans &trans &trans &trans &trans &kp END &kp PG_DN  &kp C_NEXT &trans &bt BT_NXT
+				&trans &trans  &trans              &trans                            &trans   &trans   &trans &trans &trans &bt BT_CLR
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
